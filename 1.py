@@ -1,10 +1,13 @@
-#!/usr/bin/env python
-
+import os
 from selenium import webdriver
 
+class RunChromeTests():
 
-browser = webdriver.Chrome()
-#browser.get('http://www.ubuntu.com/')
-browser.get('http://127.0.0.1:32768/index.php')
-link = browser.find_element_by_xpath("//a[@id='About Us']")
-link.click()
+    def test(self):
+        browser = webdriver.Chrome()
+        browser.get('http://127.0.0.1:5000/index.php')
+        link = browser.find_element_by_xpath("//a[@id='About Us']")
+        link.click()
+
+ff = RunChromeTests()
+ff.test()
