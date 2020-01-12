@@ -1,13 +1,18 @@
-import os
+import pytest
 from selenium import webdriver
+import time
 
-class RunChromeTests():
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-    def test(self):
-        browser = webdriver.Chrome()
-        browser.get('http://127.0.0.1:5000/index.php')
-        link = browser.find_element_by_xpath("//a[@id='About Us']")
-        link.click()
+def test_edureka():
+    driver = webdriver.Chrome(executable_path="/home/rajesh-pc/study/edureka/projCert/chromedriver_79/chromedriver")
+    driver.get("http://127.0.0.1:5000/index.php")
+    driver.maximize_window()
+    link = driver.find_element_by_xpath("//a[@id='About Us']")
+    link.click()
 
-ff = RunChromeTests()
-ff.test()
+def test_1():
+    print("success")
+
