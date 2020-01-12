@@ -17,10 +17,3 @@ def test_edureka():
     link = driver.find_element_by_xpath("//a[@id='About Us']")
     link.click()
 
-def test_1():
-    print("success")
-
-
-def test_1():
-    print("success")
-
