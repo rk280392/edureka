@@ -8,12 +8,17 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 
 def test_edureka():
-    service_log_path = "{}/firefox.log".format("/home/rajesh-pc/study/edureka/projCert")
+    service_log_path = "{}/firefox.log".format("/home/rajesh-pc/PycharmProjects/Edureka_project_1/testing1")
     service_args = ['--verbose']
-    driver = webdriver.Firefox(executable_path="/usr/bin/firefox",service_args=service_args,service_log_path=service_log_path)
-    driver.get("http://127.0.0.1:5000/index.php")
- #   link = driver.find_element_by_xpath("//a[@id='About Us']")
- #   link.click()
+    driver = webdriver.Chrome(executable_path="/usr/bin/chromedriver", service_args=service_args,service_log_path=service_log_path)
+    driver.get("http://192.168.0.121:5000/index.php")
+    driver.maximize_window()
+    link = driver.find_element_by_xpath("//a[@id='About Us']")
+    link.click()
+
+def test_1():
+    print("success")
+
 
 def test_1():
     print("success")

@@ -1,26 +1,1019 @@
-/home/rajesh-pc/study/edureka/projCert/geckodriver: error: Found argument '--verbose' which wasn't expected, or isn't valid in this context
-	Did you mean --version?
+[1578813012.936][INFO]: Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})
+[1578813012.937][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1578813013.936][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
 
-USAGE:
-    geckodriver --version --port <PORT>
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1578813013.937][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1578813013.937][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1578813013.938][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/tmp/.com.google.Chrome.DVWQDq/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.YKbbrP data:,
 
-For more information try --help
+DevTools listening on ws://127.0.0.1:35431/devtools/browser/b825da76-2be9-4191-8a57-bff4bd5c00e7
+[1578813014.341][DEBUG]: DevTools HTTP Request: http://localhost:35431/json/version
+[13164:13164:0112/124014.365717:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1578813014.456][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/79.0.3945.88",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36",
+   "V8-Version": "7.9.317.32",
+   "WebKit-Version": "537.36 (@c2a58a36b9411c80829b4b154bfcab97e581f1f3)",
+   "webSocketDebuggerUrl": "ws://localhost:35431/devtools/browser/b825da76-2be9-4191-8a57-bff4bd5c00e7"
+}
 
-/home/rajesh-pc/study/edureka/projCert/geckodriver: error: Found argument '--verbose' which wasn't expected, or isn't valid in this context
-	Did you mean --version?
+[1578813014.456][DEBUG]: DevTools HTTP Request: http://localhost:35431/json
+[1578813014.484][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:35431/devtools/page/56DA843013046766153C7151BDBC9FE0",
+   "id": "56DA843013046766153C7151BDBC9FE0",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:35431/devtools/page/56DA843013046766153C7151BDBC9FE0"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:35431/devtools/page/3408E55CAD76C115797F7380D4DFC4FE",
+   "id": "3408E55CAD76C115797F7380D4DFC4FE",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:35431/devtools/page/3408E55CAD76C115797F7380D4DFC4FE"
+} ]
 
-USAGE:
-    geckodriver --version --port <PORT>
+[1578813014.484][DEBUG]: DevTools HTTP Request: http://localhost:35431/json
+[13164:13164:0112/124014.491935:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[1578813014.538][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:35431/devtools/page/56DA843013046766153C7151BDBC9FE0",
+   "id": "56DA843013046766153C7151BDBC9FE0",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:35431/devtools/page/56DA843013046766153C7151BDBC9FE0"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:35431/devtools/page/3408E55CAD76C115797F7380D4DFC4FE",
+   "id": "3408E55CAD76C115797F7380D4DFC4FE",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:35431/devtools/page/3408E55CAD76C115797F7380D4DFC4FE"
+} ]
 
-For more information try --help
+[1578813014.539][INFO]: resolved localhost to ["127.0.0.1"]
+[1578813014.597][DEBUG]: DevTools WebSocket Command: Log.enable (id=1) 3408E55CAD76C115797F7380D4DFC4FE {
 
-/home/rajesh-pc/study/edureka/projCert/geckodriver: error: Found argument '--verbose' which wasn't expected, or isn't valid in this context
-	Did you mean --version?
+}
+[1578813014.597][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=2) 3408E55CAD76C115797F7380D4DFC4FE {
 
-USAGE:
-    geckodriver --version --port <PORT>
+}
+[1578813014.598][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=3) 3408E55CAD76C115797F7380D4DFC4FE {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1578813014.598][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) 3408E55CAD76C115797F7380D4DFC4FE {
 
-For more information try --help
+}
+[1578813014.598][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) 3408E55CAD76C115797F7380D4DFC4FE {
 
-Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/rajesh-pc which is owned by rajesh-pc.)
-Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/rajesh-pc which is owned by rajesh-pc.)
+}
+[1578813014.653][DEBUG]: DevTools WebSocket Response: Log.enable (id=1) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.653][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=2) 3408E55CAD76C115797F7380D4DFC4FE {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1578813014.653][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=3) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.653][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.653][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.653][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=6) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.657][DEBUG]: DevTools WebSocket Event: Page.frameResized 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.663][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 3408E55CAD76C115797F7380D4DFC4FE {
+   "context": {
+      "auxData": {
+         "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1578813014.663][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=6) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.663][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.665][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.665][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.678][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.680][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=9) 3408E55CAD76C115797F7380D4DFC4FE {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578813014.687][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=9) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1578813014.687][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "79.0.3945.88",
+      "chrome": {
+         "chromedriverVersion": "79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})",
+         "userDataDir": "/tmp/.com.google.Chrome.YKbbrP"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:35431"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "ddc841a13bb70903d5faf78f1ce78d7a"
+}
+[1578813014.694][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] COMMAND Navigate {
+   "url": "http://192.168.0.121:5000/index.php"
+}
+[1578813014.694][INFO]: Waiting for pending navigations...
+[1578813014.694][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813014.704][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813014.704][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=11) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.709][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=11) 3408E55CAD76C115797F7380D4DFC4FE {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1578813014.709][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "document.readyState"
+}
+[1578813014.711][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1578813014.711][INFO]: Done waiting for pending navigations. Status: ok
+[1578813014.711][DEBUG]: DevTools WebSocket Command: Page.navigate (id=13) 3408E55CAD76C115797F7380D4DFC4FE {
+   "url": "http://192.168.0.121:5000/index.php"
+}
+[1578813014.770][DEBUG]: DevTools WebSocket Response: Page.navigate (id=13) 3408E55CAD76C115797F7380D4DFC4FE {
+   "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+   "loaderId": "A0267BC91B6D93B53D5D9B1B2E6DB080"
+}
+[1578813014.770][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "document.URL"
+}
+[1578813014.771][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.854][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 3408E55CAD76C115797F7380D4DFC4FE {
+   "frameId": "3408E55CAD76C115797F7380D4DFC4FE"
+}
+[1578813014.854][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.854][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 3408E55CAD76C115797F7380D4DFC4FE {
+   "frame": {
+      "id": "3408E55CAD76C115797F7380D4DFC4FE",
+      "loaderId": "A0267BC91B6D93B53D5D9B1B2E6DB080",
+      "mimeType": "text/html",
+      "securityOrigin": "http://192.168.0.121:5000",
+      "url": "http://192.168.0.121:5000/index.php"
+   }
+}
+[1578813014.855][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.855][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=15) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.855][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 3408E55CAD76C115797F7380D4DFC4FE {
+   "context": {
+      "auxData": {
+         "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "http://192.168.0.121:5000"
+   }
+}
+[1578813014.911][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 3408E55CAD76C115797F7380D4DFC4FE {
+   "timestamp": 4301.181785
+}
+[1578813014.912][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 3408E55CAD76C115797F7380D4DFC4FE {
+   "frameId": "3408E55CAD76C115797F7380D4DFC4FE"
+}
+[1578813014.912][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.912][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=16) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.913][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 3408E55CAD76C115797F7380D4DFC4FE {
+   "timestamp": 4301.254777
+}
+[1578813014.913][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "string",
+      "value": "http://192.168.0.121:5000/index.php"
+   }
+}
+[1578813014.913][INFO]: Waiting for pending navigations...
+[1578813014.913][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813014.914][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=15) 3408E55CAD76C115797F7380D4DFC4FE {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "http://192.168.0.121:5000/index.php",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 2,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 1,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 3,
+            "localName": "head",
+            "nodeId": 4,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 3
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 5,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 3
+         } ],
+         "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+         "localName": "html",
+         "nodeId": 3,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "http://192.168.0.121:5000/index.php",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1578813014.918][DEBUG]: DevTools WebSocket Event: Page.frameResized 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813014.941][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=16) 3408E55CAD76C115797F7380D4DFC4FE {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "http://192.168.0.121:5000/index.php",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 7,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 6,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 3,
+            "localName": "head",
+            "nodeId": 9,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 8
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 10,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 8
+         } ],
+         "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+         "localName": "html",
+         "nodeId": 8,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 6
+      } ],
+      "documentURL": "http://192.168.0.121:5000/index.php",
+      "localName": "",
+      "nodeId": 6,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1578813014.942][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813014.942][INFO]: Done waiting for pending navigations. Status: ok
+[1578813014.942][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] RESPONSE Navigate
+[1578813014.945][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] COMMAND MaximizeWindow {
+
+}
+[1578813014.945][INFO]: Waiting for pending navigations...
+[1578813014.945][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813014.956][DEBUG]: DevTools WebSocket Event: Log.entryAdded 3408E55CAD76C115797F7380D4DFC4FE {
+   "entry": {
+      "level": "error",
+      "networkRequestId": "13187.2",
+      "source": "network",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "timestamp": 1.5788130149292542e+12,
+      "url": "http://192.168.0.121:5000/favicon.ico"
+   }
+}
+[1578813014.970][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813014.970][INFO]: Done waiting for pending navigations. Status: ok
+[1578813014.970][INFO]: resolved localhost to ["127.0.0.1"]
+[1578813014.972][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=1) browser {
+   "targetId": "3408E55CAD76C115797F7380D4DFC4FE"
+}
+[1578813014.973][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=1) browser {
+   "bounds": {
+      "height": 721,
+      "left": 80,
+      "top": 37,
+      "width": 1050,
+      "windowState": "normal"
+   },
+   "windowId": 1
+}
+[1578813014.973][DEBUG]: DevTools WebSocket Command: Browser.setWindowBounds (id=2) browser {
+   "bounds": {
+      "windowState": "maximized"
+   },
+   "windowId": 1
+}
+[1578813014.974][DEBUG]: DevTools WebSocket Response: Browser.setWindowBounds (id=2) browser {
+
+}
+[1578813015.075][DEBUG]: DevTools WebSocket Command: Browser.getWindowBounds (id=3) browser {
+   "windowId": 1
+}
+[1578813015.077][DEBUG]: DevTools WebSocket Response: Browser.getWindowBounds (id=3) browser {
+   "bounds": {
+      "height": 741,
+      "left": 70,
+      "top": 27,
+      "width": 1296,
+      "windowState": "maximized"
+   }
+}
+[1578813015.077][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=4) browser {
+   "targetId": "3408E55CAD76C115797F7380D4DFC4FE"
+}
+[1578813015.077][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=4) browser {
+   "bounds": {
+      "height": 741,
+      "left": 70,
+      "top": 27,
+      "width": 1296,
+      "windowState": "maximized"
+   },
+   "windowId": 1
+}
+[1578813015.077][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=5) browser {
+   "targetId": "3408E55CAD76C115797F7380D4DFC4FE"
+}
+[1578813015.078][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=5) browser {
+   "bounds": {
+      "height": 741,
+      "left": 70,
+      "top": 27,
+      "width": 1296,
+      "windowState": "maximized"
+   },
+   "windowId": 1
+}
+[1578813015.078][INFO]: Waiting for pending navigations...
+[1578813015.078][DEBUG]: DevTools WebSocket Event: Page.frameResized 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.078][DEBUG]: DevTools WebSocket Event: Page.frameResized 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.078][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813015.079][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813015.079][INFO]: Done waiting for pending navigations. Status: ok
+[1578813015.079][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] RESPONSE MaximizeWindow {
+   "height": 741,
+   "width": 1296,
+   "x": 70,
+   "y": 27
+}
+[1578813015.082][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@id='About Us']"
+}
+[1578813015.082][INFO]: Waiting for pending navigations...
+[1578813015.082][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813015.084][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813015.084][INFO]: Done waiting for pending navigations. Status: ok
+[1578813015.094][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) 3408E55CAD76C115797F7380D4DFC4FE {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578813015.121][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+            "element-6066-11e4-a52e-4f735466cecf": "ec15b51a-cd27-4804-9b30-f5653b8149b4"
+         }
+      }
+   }
+}
+[1578813015.122][INFO]: Waiting for pending navigations...
+[1578813015.122][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813015.123][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813015.123][INFO]: Done waiting for pending navigations. Status: ok
+[1578813015.123][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ec15b51a-cd27-4804-9b30-f5653b8149b4"
+}
+[1578813015.126][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] COMMAND ClickElement {
+   "id": "ec15b51a-cd27-4804-9b30-f5653b8149b4"
+}
+[1578813015.126][INFO]: Waiting for pending navigations...
+[1578813015.126][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813015.128][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813015.128][INFO]: Done waiting for pending navigations. Status: ok
+[1578813015.128][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) 3408E55CAD76C115797F7380D4DFC4FE {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578813015.133][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "a"
+      }
+   }
+}
+[1578813015.134][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) 3408E55CAD76C115797F7380D4DFC4FE {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578813015.137][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "a"
+      }
+   }
+}
+[1578813015.144][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=26) 3408E55CAD76C115797F7380D4DFC4FE {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578813015.169][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=26) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": true
+      }
+   }
+}
+[1578813015.170][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) 3408E55CAD76C115797F7380D4DFC4FE {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578813015.177][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+            "height": 17,
+            "left": 0,
+            "top": 0,
+            "width": 61.78125
+         }
+      }
+   }
+}
+[1578813015.181][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=28) 3408E55CAD76C115797F7380D4DFC4FE {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578813015.197][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=28) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+            "ceil": {
+
+            },
+            "clone": {
+
+            },
+            "floor": {
+
+            },
+            "round": {
+
+            },
+            "scale": {
+
+            },
+            "toString": {
+
+            },
+            "translate": {
+
+            },
+            "x": 570.234375,
+            "y": 146.8125
+         }
+      }
+   }
+}
+[1578813015.200][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) 3408E55CAD76C115797F7380D4DFC4FE {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578813015.217][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": {
+            "clickable": true
+         }
+      }
+   }
+}
+[1578813015.217][DEBUG]: DevTools WebSocket Command: Input.dispatchMouseEvent (id=30) 3408E55CAD76C115797F7380D4DFC4FE {
+   "button": "none",
+   "buttons": 0,
+   "clickCount": 0,
+   "modifiers": 0,
+   "pointerType": "mouse",
+   "type": "mouseMoved",
+   "x": 600,
+   "y": 154
+}
+[1578813015.220][DEBUG]: DevTools WebSocket Response: Input.dispatchMouseEvent (id=30) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.220][DEBUG]: DevTools WebSocket Command: Input.dispatchMouseEvent (id=31) 3408E55CAD76C115797F7380D4DFC4FE {
+   "button": "left",
+   "buttons": 0,
+   "clickCount": 1,
+   "modifiers": 0,
+   "pointerType": "mouse",
+   "type": "mousePressed",
+   "x": 600,
+   "y": 154
+}
+[1578813015.223][DEBUG]: DevTools WebSocket Response: Input.dispatchMouseEvent (id=31) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.223][DEBUG]: DevTools WebSocket Command: Input.dispatchMouseEvent (id=32) 3408E55CAD76C115797F7380D4DFC4FE {
+   "button": "left",
+   "buttons": 1,
+   "clickCount": 1,
+   "modifiers": 0,
+   "pointerType": "mouse",
+   "type": "mouseReleased",
+   "x": 600,
+   "y": 154
+}
+[1578813015.234][DEBUG]: DevTools WebSocket Response: Input.dispatchMouseEvent (id=32) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.234][INFO]: Waiting for pending navigations...
+[1578813015.234][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813015.235][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 3408E55CAD76C115797F7380D4DFC4FE {
+   "frameId": "3408E55CAD76C115797F7380D4DFC4FE"
+}
+[1578813015.284][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 3408E55CAD76C115797F7380D4DFC4FE {
+   "executionContextId": 1
+}
+[1578813015.284][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.285][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 3408E55CAD76C115797F7380D4DFC4FE {
+   "frame": {
+      "id": "3408E55CAD76C115797F7380D4DFC4FE",
+      "loaderId": "ED4C6D33FE30C7D1D26962FB78B8970B",
+      "mimeType": "text/html",
+      "securityOrigin": "http://192.168.0.121:5000",
+      "url": "http://192.168.0.121:5000/content/about-us.php"
+   }
+}
+[1578813015.285][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 3408E55CAD76C115797F7380D4DFC4FE {
+   "context": {
+      "auxData": {
+         "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "http://192.168.0.121:5000"
+   }
+}
+[1578813015.285][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.285][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=34) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.286][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813015.303][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 3408E55CAD76C115797F7380D4DFC4FE {
+   "timestamp": 4301.654134
+}
+[1578813015.303][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=35) 3408E55CAD76C115797F7380D4DFC4FE {
+   "expression": "1"
+}
+[1578813015.304][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 3408E55CAD76C115797F7380D4DFC4FE {
+   "frameId": "3408E55CAD76C115797F7380D4DFC4FE"
+}
+[1578813015.304][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.304][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=36) 3408E55CAD76C115797F7380D4DFC4FE {
+
+}
+[1578813015.304][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 3408E55CAD76C115797F7380D4DFC4FE {
+   "timestamp": 4301.654697
+}
+[1578813015.306][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=34) 3408E55CAD76C115797F7380D4DFC4FE {
+   "root": {
+      "backendNodeId": 12,
+      "baseURL": "http://192.168.0.121:5000/content/about-us.php",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 15,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 16,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 13,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 12
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 17,
+            "childNodeCount": 2,
+            "localName": "body",
+            "nodeId": 14,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 12
+         } ],
+         "frameId": "3408E55CAD76C115797F7380D4DFC4FE",
+         "localName": "html",
+         "nodeId": 12,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 11
+      } ],
+      "documentURL": "http://192.168.0.121:5000/content/about-us.php",
+      "localName": "",
+      "nodeId": 11,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1578813015.314][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=35) 3408E55CAD76C115797F7380D4DFC4FE {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578813015.315][INFO]: Done waiting for pending navigations. Status: ok
+[1578813015.315][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] RESPONSE ClickElement
+[1578813015.368][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] COMMAND QuitAll {
+
+}
+[1578813015.418][INFO]: [ddc841a13bb70903d5faf78f1ce78d7a] RESPONSE QuitAll
+[1578813015.418][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1578813015.418][DEBUG]: Log type 'browser' lost 1 entries on destruction
