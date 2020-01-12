@@ -1,0 +1,26 @@
+/home/rajesh-pc/study/edureka/projCert/geckodriver: error: Found argument '--verbose' which wasn't expected, or isn't valid in this context
+	Did you mean --version?
+
+USAGE:
+    geckodriver --version --port <PORT>
+
+For more information try --help
+
+/home/rajesh-pc/study/edureka/projCert/geckodriver: error: Found argument '--verbose' which wasn't expected, or isn't valid in this context
+	Did you mean --version?
+
+USAGE:
+    geckodriver --version --port <PORT>
+
+For more information try --help
+
+/home/rajesh-pc/study/edureka/projCert/geckodriver: error: Found argument '--verbose' which wasn't expected, or isn't valid in this context
+	Did you mean --version?
+
+USAGE:
+    geckodriver --version --port <PORT>
+
+For more information try --help
+
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/rajesh-pc which is owned by rajesh-pc.)
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/rajesh-pc which is owned by rajesh-pc.)
