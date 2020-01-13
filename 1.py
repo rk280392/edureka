@@ -13,6 +13,8 @@ def test_edureka():
     #driver = webdriver.Chrome(executable_path="/usr/bin/chromedriver", service_args=service_args,service_log_path=service_log_path)
     chrome_options = Options()
     chrome_options.add_argument("--headless")
+    options.addArguments("--disable-dev-shm-usage")
+    options.addArguments("--disable-extensions")
     driver = webdriver.Chrome(options=chrome_options)
     driver.get("http://192.168.0.106:5000/index.php")
     driver.maximize_window()
