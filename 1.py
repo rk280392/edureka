@@ -15,6 +15,7 @@ def test_edureka():
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--no-sandbox");
     driver = webdriver.Chrome(options=chrome_options)
     driver.get("http://192.168.0.106:5000/index.php")
     driver.maximize_window()
