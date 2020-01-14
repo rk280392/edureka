@@ -1,14 +1,16 @@
 #!/bin/bash
 
-cmd1= grep 'puppet' /etc/hosts | head -2
-cmd2= grep 'project.edu.com' /etc/puppet/puppet.conf | head -1 
+cmd1="$(grep 'puppet' /etc/hosts | head -2)"
+cmd2="$(grep 'project.edu.com' /etc/puppet/puppet.conf | head -1)"
+ipaddress="$(ifconfig eth1 | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | head -1)"
+hostname="$(cat /proc/sys/kernel/hostname)"
 
-if [ $cmd1 ]
+if [ !$cmd1 ]
 then
 	echo "*******************Inserting into hosts file***********************"
 	cat <<EOT>> /etc/hosts
-	192.168.0.109 puppet project.edu.com
-	192.168.0.120 puppetslave
+	192.168.0.121 puppet project.edu.com
+	$ipaddress $hostname
 EOT
 echo "**************************updated hosts file******************************"
 else
@@ -17,7 +19,7 @@ fi
 
 if [ $cmd2 ]
 then
-	echo "inserting into config file"
+	echo "***************************inserting into config file********************************"
 	cat <<EOT>> /etc/puppet/puppet.conf
 	[main]
 	server = project.edu.com
