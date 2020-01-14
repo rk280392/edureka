@@ -10,6 +10,8 @@ EOT
 echo "**************************updated hosts file******************************"
 else
 	echo "************************hosts file up to date******************************************"
+fi
+
 if [ ! grep 'project.edu.com' /etc/puppet/puppet.conf | head -1 ]
 then
 	echo "inserting into config file"
@@ -20,6 +22,7 @@ EOT
 	echo "****************************updated puppet.conf****************************************"
 else
 	echo "****************************puppet.conf up to date****************************************"
+fi
 
 find /var/lib/puppet/ssl -name vagrant.vm.pem -delete
 
