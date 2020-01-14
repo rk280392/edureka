@@ -1,6 +1,9 @@
 #!/bin/bash
 
-if [ ! grep puppet /etc/hosts | head -2  ]
+cmd1= grep 'puppet' /etc/hosts | head -2
+cmd2= grep 'project.edu.com' /etc/puppet/puppet.conf | head -1 
+
+if [ $cmd1 ]
 then
 	echo "*******************Inserting into hosts file***********************"
 	cat <<EOT>> /etc/hosts
@@ -12,7 +15,7 @@ else
 	echo "************************hosts file up to date******************************************"
 fi
 
-if [ ! grep 'project.edu.com' /etc/puppet/puppet.conf | head -1 ]
+if [ $cmd2 ]
 then
 	echo "inserting into config file"
 	cat <<EOT>> /etc/puppet/puppet.conf
