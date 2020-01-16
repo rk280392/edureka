@@ -6,9 +6,10 @@ sudo apt-get -y update
 sudo apt-get -y install google-chrome-stable
 wget https://chromedriver.storage.googleapis.com/79.0.3945.36/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip 
-mv chromedriver /usr/bin/
+sudo mv chromedriver /usr/bin/
 cd /usr/bin/
 ls
-chown root:root chromedriver 
-chmod +x chromedriver 
+sudo chown root:root chromedriver 
+sudo chmod +x chromedriver 
 sudo pip install selenium
+sudo apt-get install -y python-pytest
